@@ -1,0 +1,2 @@
+PASS 26.3-R0.1-SNAPSHOT: distinct equal model keys; matching count; 50/49 threshold; wrong/no model; wrong material; invalid/empty keys and warnings; experimental getinfo and invalid getinfo; getVersion/canRegister.
+Isolated fixtures simulate infrastructure; no live PAPI registration, NBT calls or MythicMobs integration.

@@ -1,0 +1,62 @@
+warning: [options] bootstrap class path is not set in conjunction with -source 8
+  not setting the bootstrap class path may lead to class files that cannot run on JDK 8
+    --release 8 is recommended instead of -source 8 -target 8 because it sets the bootstrap class path automatically
+warning: [options] source value 8 is obsolete and will be removed in a future release
+warning: [options] target value 8 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+work\CheckItem-Expansion\src\com\extendedclip\papi\expansion\checkitem\CheckItemExpansion.java:28: warning: [removal] PotionData in org.bukkit.potion has been deprecated and marked for removal
+import org.bukkit.potion.PotionData;
+                        ^
+work\CheckItem-Expansion\src\com\extendedclip\papi\expansion\checkitem\CheckItemExpansion.java:579: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+          Class.forName("org.bukkit.inventory.meta.ItemMeta").getMethod("hasCustomModelData", null);
+                                                                                              ^
+  cast to Class<?> for a varargs call
+  cast to Class<?>[] for a non-varargs call and to suppress this warning
+work\CheckItem-Expansion\src\com\extendedclip\papi\expansion\checkitem\CheckItemExpansion.java:685: warning: [removal] PotionData in org.bukkit.potion has been deprecated and marked for removal
+        PotionData potionData = ((PotionMeta) item.getItemMeta()).getBasePotionData();
+        ^
+work\CheckItem-Expansion\src\com\extendedclip\papi\expansion\checkitem\CheckItemExpansion.java:685: warning: [removal] getBasePotionData() in PotionMeta has been deprecated and marked for removal
+        PotionData potionData = ((PotionMeta) item.getItemMeta()).getBasePotionData();
+                                                                 ^
+work\CheckItem-Expansion\src\com\extendedclip\papi\expansion\checkitem\CheckItemExpansion.java:690: warning: [removal] PotionData in org.bukkit.potion has been deprecated and marked for removal
+        PotionData potionData = ((PotionMeta) item.getItemMeta()).getBasePotionData();
+        ^
+work\CheckItem-Expansion\src\com\extendedclip\papi\expansion\checkitem\CheckItemExpansion.java:690: warning: [removal] getBasePotionData() in PotionMeta has been deprecated and marked for removal
+        PotionData potionData = ((PotionMeta) item.getItemMeta()).getBasePotionData();
+                                                                 ^
+work\CheckItem-Expansion\src\com\extendedclip\papi\expansion\checkitem\CheckItemExpansion.java:695: warning: [removal] PotionData in org.bukkit.potion has been deprecated and marked for removal
+        PotionData potionData = ((PotionMeta) item.getItemMeta()).getBasePotionData();
+        ^
+work\CheckItem-Expansion\src\com\extendedclip\papi\expansion\checkitem\CheckItemExpansion.java:695: warning: [removal] getBasePotionData() in PotionMeta has been deprecated and marked for removal
+        PotionData potionData = ((PotionMeta) item.getItemMeta()).getBasePotionData();
+                                                                 ^
+work\CheckItem-Expansion\src\com\extendedclip\papi\expansion\checkitem\CheckItemExpansion.java:765: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+        Class.forName("org.bukkit.inventory.PlayerInventory").getMethod("getItemInMainHand", null);
+                                                                                             ^
+  cast to Class<?> for a varargs call
+  cast to Class<?>[] for a non-varargs call and to suppress this warning
+work\CheckItem-Expansion\src\com\extendedclip\papi\expansion\checkitem\CheckItemExpansion.java:864: warning: [removal] PotionData in org.bukkit.potion has been deprecated and marked for removal
+            new PotionData(wrapper.getPotionType(), wrapper.getPotionExtended(), wrapper.getPotionUpgraded()));
+                ^
+work\CheckItem-Expansion\src\com\extendedclip\papi\expansion\checkitem\CheckItemExpansion.java:863: warning: [removal] setBasePotionData(@org.jetbrains.annotations.Nullable PotionData) in PotionMeta has been deprecated and marked for removal
+        potionMeta.setBasePotionData(
+                  ^
+work\CheckItem-Expansion\src\com\extendedclip\papi\expansion\checkitem\CheckItemExpansion.java:1039: warning: [removal] PotionData in org.bukkit.potion has been deprecated and marked for removal
+          PotionData potionData = ((PotionMeta) toCheckMeta).getBasePotionData();
+          ^
+work\CheckItem-Expansion\src\com\extendedclip\papi\expansion\checkitem\CheckItemExpansion.java:1039: warning: [removal] getBasePotionData() in PotionMeta has been deprecated and marked for removal
+          PotionData potionData = ((PotionMeta) toCheckMeta).getBasePotionData();
+                                                            ^
+work\CheckItem-Expansion\src\com\extendedclip\papi\expansion\checkitem\CheckItemExpansion.java:1161: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+            Class.forName("org.bukkit.inventory.PlayerInventory").getMethod("getItemInOffHand", null);
+                                                                                                ^
+  cast to Class<?> for a varargs call
+  cast to Class<?>[] for a non-varargs call and to suppress this warning
+work\CheckItem-Expansion\src\com\extendedclip\papi\expansion\checkitem\CheckItemExpansion.java:1207: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+            Class.forName("org.bukkit.inventory.PlayerInventory").getMethod("getItemInOffHand", null);
+                                                                                                ^
+  cast to Class<?> for a varargs call
+  cast to Class<?>[] for a non-varargs call and to suppress this warning
+Note: work\CheckItem-Expansion\src\com\extendedclip\papi\expansion\checkitem\CheckItemExpansion.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+19 warnings
